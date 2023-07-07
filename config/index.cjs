@@ -1,4 +1,3 @@
-/* eslint-disable */
 
 /**
  * 此项目配置为方便新人使用，已缩减至最简配置。
@@ -14,29 +13,29 @@ const USER_CONFIG = {
   APP_SECRET: 'b8f3cf40169f74c7fb945242dbc560b6',
 
   PROVINCE: '河北',
-  CITY: '沧州',
+  CITY: '石家庄',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '测试名称',
+      name: '饭饭',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oCyDc6ZUWda02gR8_Gb5JFRl3yiI',
+      id: 'oCyDc6Y6waWjZCoYDuZsrUngbbhE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '9ZrzeIyaXModMuyHhBOE-zDPKYsT4yRyLE3Vv5SKh4w',
+      useTemplateId: 'v2t41jkrxhg3TPaNIIK6rtOYHDujLedDpYn1SB6xa3A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        // {
+        //   type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+        // },
+        // // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        // {
+        //   type: '生日', name: '考研', year: '1996', date: '12-24',
+        // },
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '考研', year: '2023', date: '12-24',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
